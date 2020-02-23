@@ -7,6 +7,7 @@ go_library(
         "nodes.go",
         "stream_parser.go",
     ],
+    foo='bar',
     importpath = "github.com/buildbarn/bb-browser/pkg/buildevents",
     visibility = ["//visibility:public"],
     deps = [
